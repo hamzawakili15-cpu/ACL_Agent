@@ -1,0 +1,26 @@
+[project]
+name = "acl-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hamzawakili15-cpu", email = "hamzawakili15@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=1.4.3",
+    "langchain-anthropic>=1.7.5",
+    "langchain-community>=0.4.2",
+    "langchain-groq>=1.1.3",
+    "langchain-openai>=1.6.7",
+    "langgraph>=1.2.12",
+    "tavily>=1.1.0",
+]
+
+[project.scripts]
+acl-agent = "acl_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
