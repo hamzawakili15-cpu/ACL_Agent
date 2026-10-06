@@ -17,3 +17,6 @@ Search the web fro: recipe flour sugar butter milk eggs vanilla honey cinnamon b
 INFO:     127.0.0.1:53839 - "POST /api/recipes/generate HTTP/1.1" 500 Internal Server Error
 Search the web fro: classic beef stew recipe with potatoes carrots bay leaves parsley peppercorns
 INFO:     127.0.0.1:53976 - "POST /api/recipes/generate HTTP/1.1" 200 OK
+Search the web fro: beef stew recipe beef potatoes carrots bay leaves peppercorns parsley stock
+Search the web fro: classic beef stew recipe with only beef potatoes carrots bay leaves peppercorns parsley beef stock simple ingredients
+INFO:     127.0.0.1:55647 - "POST /api/recipes/generate HTTP/1.1" 200 OK
