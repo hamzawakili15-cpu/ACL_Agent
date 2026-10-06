@@ -6,3 +6,6 @@ langchain-groq
 langchain-community
 dotenv
 tavily
+fastapi
+uvicorn[standard]
+python-multipart

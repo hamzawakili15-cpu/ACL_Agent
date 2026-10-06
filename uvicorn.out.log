@@ -1,0 +1,19 @@
+INFO:     127.0.0.1:50145 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50160 - "POST /api/recipes/generate HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:50168 - "POST /api/recipes/generate HTTP/1.1" 415 Unsupported Media Type
+INFO:     127.0.0.1:50201 - "POST /api/recipes/generate HTTP/1.1" 413 Request Entity Too Large
+INFO:     127.0.0.1:50283 - "POST /api/recipes/generate HTTP/1.1" 415 Unsupported Media Type
+INFO:     127.0.0.1:50328 - "POST /api/recipes/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51474 - "POST /api/recipes/generate HTTP/1.1" 200 OK
+Search the web fro: simple beef stew recipe with beef potatoes carrots bay leaf parsley pepper tomato sauce
+INFO:     127.0.0.1:53179 - "POST /api/recipes/generate HTTP/1.1" 200 OK
+Search the web fro: beef stew recipe with potatoes carrots bay leaf parsley peppercorns tomato sauce
+INFO:     127.0.0.1:53243 - "POST /api/recipes/generate HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:53475 - "POST /api/recipes/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53615 - "POST /api/recipes/generate HTTP/1.1" 500 Internal Server Error
+Search the web fro: recipe with only eggs flour sugar butter milk vanilla extract honey cinnamon
+INFO:     127.0.0.1:53653 - "POST /api/recipes/generate HTTP/1.1" 500 Internal Server Error
+Search the web fro: recipe flour sugar butter milk eggs vanilla honey cinnamon baking
+INFO:     127.0.0.1:53839 - "POST /api/recipes/generate HTTP/1.1" 500 Internal Server Error
+Search the web fro: classic beef stew recipe with potatoes carrots bay leaves parsley peppercorns
+INFO:     127.0.0.1:53976 - "POST /api/recipes/generate HTTP/1.1" 200 OK

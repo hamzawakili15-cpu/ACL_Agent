@@ -50,7 +50,7 @@ def image_to_data_url(image_path: Path) -> str:
 def build_image_message(image_path: Path, prompt: str) -> HumanMessage:
     return HumanMessage(
         content=[
-            {"type": "text", "text": "tell me about this image"},
+            {"type": "text", "text": prompt},
             {"type": "image_url", "image_url": {"url": image_to_data_url(image_path)}},
         ]
     )
