@@ -1,4 +1,4 @@
-const API_URL = "https://fasteat-api-production.up.railway.app/";
+const API_URL = "https://fasteat-api-production.up.railway.app";
 
 const uploadZone = document.getElementById("uploadZone");
 const fileInput = document.getElementById("fileInput");
